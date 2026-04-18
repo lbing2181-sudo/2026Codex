@@ -2,7 +2,8 @@
 
 ## Current Stage
 
-- The workspace skeleton is being established.
+- The workspace skeleton has been established.
+- Local `main` and remote `origin/main` are synchronized with normal Git history.
 - The first project focus is a high-aesthetic AI commercial film system based on the upstream `tvc-director` logic.
 
 ## Immediate Priorities
@@ -10,11 +11,12 @@
 1. Build the repository memory structure.
 2. Turn the `tvc-director` idea into a commercially usable service offer.
 3. Define a clean operating pipeline for taking real client work.
+4. Start refining the `tvc-director` project into a client-ready operating system.
 
 ## Known Constraints
 
 - User is non-technical and relies on the agent for repository structure and development guidance.
-- The current local directory was not yet connected to GitHub at the start of this session.
+- Some commands that touch Git internals or remote network access may still trigger safety approval in the Codex app.
 
 ## Collaboration Reminder
 

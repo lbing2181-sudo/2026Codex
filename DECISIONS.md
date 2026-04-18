@@ -12,3 +12,5 @@
   consider productization later only if repeated demand justifies it.
 - Upstream open-source work under MIT may be adapted for private or commercial use, but attribution and license integrity should be preserved.
 - Public presentation should not misrepresent adapted upstream work as unrelated original creation.
+- The local repository and the private GitHub repository `lbing2181-sudo/2026Codex` are now connected through normal Git history on `main`.
+- For recurring safe Git sync commands, approval prompts may be accepted with the "do not ask again for this command prefix" option when available.
