@@ -6,3 +6,4 @@
 - The project is connected for future work but is not yet active for execution.
 - When work begins, GitHub repository content and live site state should be treated as primary sources.
 - Policy, eligibility, and process claims must be verified against official government sources before being used operationally.
+- Before formal takeover, the latest repository content and live site state must be reread and synchronized into the control-layer understanding before execution starts.
