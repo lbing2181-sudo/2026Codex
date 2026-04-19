@@ -12,6 +12,7 @@ This repository is the master workspace for long-term collaboration on commercia
 ## Current Active Project
 
 - `projects/tvc-director/`
+  source repository: `https://github.com/lbing2181-sudo/tvc-director`
 
 ## Working Method
 
