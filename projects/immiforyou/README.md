@@ -40,3 +40,5 @@ It is the operating entry inside `2026Codex`.
 - Do not start active work here unless explicitly requested.
 - When this project is activated, policy and process claims must be checked against official government sources first.
 - Treat this as a content product and information-service system, not as legal advice.
+- Before formal takeover, reread the latest GitHub repository content and live site state first.
+- Update the control-layer understanding to the newest repository state before starting work in `2026Codex`.
