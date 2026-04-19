@@ -27,6 +27,9 @@
 - Important decisions go into `DECISIONS.md`.
 - Current priorities and active context go into `WORKING_MEMORY.md`.
 - Each project gets its own folder under `projects/`.
+- Before formally taking over any project, reread the latest GitHub repository state and live product state first.
+- Do not start execution work from stale local context when newer repository content may exist.
+- Sync understanding to the newest source-of-truth state before making changes in the control repository.
 
 ## Structure
 
