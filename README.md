@@ -14,6 +14,12 @@ This repository is the master workspace for long-term collaboration on commercia
 - `projects/tvc-director/`
   source repository: `https://github.com/lbing2181-sudo/tvc-director`
 
+## Registered Inactive Project
+
+- `projects/immiforyou/`
+  source repository: `https://github.com/lbing2181-sudo/lbing2181-sudo.github.io`
+  live site: `https://immiforyou.com`
+
 ## Working Method
 
 - Build results before tools.
