@@ -5,6 +5,7 @@
 - The workspace skeleton has been established.
 - Local `main` and remote `origin/main` are synchronized with normal Git history.
 - The first project focus is a high-aesthetic AI commercial film system based on the upstream `tvc-director` logic.
+- A second project entry, `immiforyou`, is now connected in dormant state and not yet active for execution.
 
 ## Immediate Priorities
 
