@@ -14,3 +14,4 @@
 - Public presentation should not misrepresent adapted upstream work as unrelated original creation.
 - The local repository and the private GitHub repository `lbing2181-sudo/2026Codex` are now connected through normal Git history on `main`.
 - For recurring safe Git sync commands, approval prompts may be accepted with the "do not ask again for this command prefix" option when available.
+- The repository `lbing2181-sudo/lbing2181-sudo.github.io` is now registered in `2026Codex` as a connected but inactive project entry under `projects/immiforyou/`.
