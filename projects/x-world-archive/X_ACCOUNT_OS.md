@@ -23,6 +23,14 @@ Operate one X account as a premium fictional archive for global English-speaking
 8. activate Premium
 9. add Articles once Premium is active
 
+## Confirmed Identity State
+
+- confirmed handle: `@sablearchive`
+- confirmed display name: `Sable Archive`
+- confirmed opening bio: `Forbidden dossiers from a world of courts, relics, and dangerous women.`
+- location should remain blank
+- website should remain blank until a dedicated archive site exists
+
 ## Why Premium Matters
 
 - access to Articles
@@ -44,6 +52,7 @@ Use a symbolic seal, not a human face.
 ### Header
 
 Use atmospheric worldbuilding, not erotic display.
+Prefer dark, open space on the left side so profile UI can breathe.
 
 ### Pinned Post
 
@@ -97,6 +106,7 @@ Opening phase guideline:
 - keep the setting concentrated
 - keep the symbol system consistent
 - repeat key words until memory forms
+- build the visual canon with still images before expanding into motion-first publishing
 
 ## Growth Thesis
 

@@ -10,12 +10,13 @@ Turn a worldbuilding idea into a published X asset with controlled quality and s
 2. choose the seasonal realm
 3. select the character or subject
 4. build the prompt from the modular architecture
-5. generate candidate visuals
-6. select by brand recognition, not novelty
-7. write platform English and lore English
-8. assign numbering and archive metadata
-9. publish into the active seasonal rhythm
-10. write back useful discoveries into repository files
+5. decide whether this asset is still-first or motion-second
+6. generate candidate visuals
+7. select by brand recognition, not novelty
+8. write platform English and lore English
+9. assign numbering and archive metadata
+10. publish into the active seasonal rhythm
+11. write back useful discoveries into repository files
 
 ## Internal Rules
 
@@ -23,6 +24,7 @@ Turn a worldbuilding idea into a published X asset with controlled quality and s
 - no new realm launch without reason
 - no public image without archive placement
 - no prompt should be treated as disposable if it reveals a reusable system
+- no video should define a recurring character before the still-image canon is stable
 
 ## Success Standard
 

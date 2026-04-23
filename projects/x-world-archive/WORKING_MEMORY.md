@@ -5,6 +5,7 @@
 - The control-layer project has now been created.
 - The core universe direction, account logic, and prompt architecture have been defined at first pass.
 - The project is still in pre-launch mode.
+- The public account identity has now been partially locked under `@sablearchive`.
 
 ## Current Thesis
 
@@ -15,9 +16,9 @@
 
 ## Immediate Priorities
 
-1. lock the account identity system
-2. define the first season publishing plan
-3. generate the first avatar candidates
+1. choose the final avatar from current candidates
+2. choose the final header from current candidates
+3. define the first season publishing plan
 4. design the pinned post and archive gateway
 5. produce the first seed post batch
 
@@ -29,8 +30,7 @@
 
 ## Open Questions
 
-- final handle choice
-- final display name style
 - first 3 core women of season one
 - first 5 posts and their order
 - whether to activate Premium immediately after account stabilization or after first traction
+- whether to keep all posting still-first through the first month or introduce motion earlier

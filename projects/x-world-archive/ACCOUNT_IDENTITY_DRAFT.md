@@ -16,14 +16,17 @@ The public identity should feel like an archive institution, not a personal crea
 - not overly fantasy-coded
 - avoid numbers unless forced
 
-## First-Pass Handle Candidates
+## Confirmed Handle
 
-- `@sablearchive`
-- `@sablearc`
-- `@sableindex`
-- `@sabledossiers`
-- `@sablevault`
+`@sablearchive`
+
+## Reserve Candidates
+
 - `@sablecourt`
+- `@sablevault`
+- `@sableindex`
+- `@sablearc`
+- `@sabledossiers`
 
 ## Recommended Display Name
 
@@ -55,6 +58,7 @@ This should stay stable unless handle availability forces a different naming log
 ## Website Field
 
 Leave empty at the beginning unless we create a stable external archive destination.
+The long-term plan can include a dedicated archive site for deeper lore, multiple realms, and more flexible world navigation.
 
 ## Location Field
 

@@ -56,3 +56,15 @@ Suggested ingredients:
 2. select the strongest silhouette
 3. simplify further for small-size recognition
 4. export square avatar and wide header variants
+
+## First Review Notes
+
+Strong avatar candidates should favor:
+
+- a centered eye
+- a strong crescent
+- a clear keyhole
+- minimal side ornament load
+- immediate recognition at tiny size
+
+Avoid variants that become too delicate or too decorative at thumbnail scale.

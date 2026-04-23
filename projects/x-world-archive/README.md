@@ -31,8 +31,9 @@ When reopening this project, read in this order:
 6. `X_ACCOUNT_OS.md`
 7. `VOICE_GUIDE.md`
 8. `PROMPT_ARCHITECTURE.md`
-9. `DECISIONS.md`
-10. `WORKING_MEMORY.md`
+9. `TOOL_STACK.md`
+10. `DECISIONS.md`
+11. `WORKING_MEMORY.md`
 
 ## Folder Map
 
@@ -44,6 +45,7 @@ When reopening this project, read in this order:
 - `ACCOUNT_IDENTITY_DRAFT.md`: handle, display name, and bio drafts
 - `VOICE_GUIDE.md`: English writing standards
 - `PROMPT_ARCHITECTURE.md`: reusable prompt engine
+- `TOOL_STACK.md`: image/video strategy and tool roles
 - `AVATAR_SYSTEM.md`: avatar and profile identity system
 - `PIPELINE.md`: creation and publishing workflow
 - `DECISIONS.md`: project decisions

@@ -14,3 +14,6 @@
 - The avatar strategy is symbolic rather than character-based.
 - X-native monetization from a mainland China entity is treated as a future structural problem, not an opening-phase dependency.
 - Recurring character consistency is a hard system requirement, not an optional style preference.
+- The confirmed public handle is `@sablearchive`.
+- Opening-phase production should be still-image-first, with short motion as a secondary amplification layer.
+- A future external archive website is treated as a likely expansion path, but not an opening requirement.
