@@ -32,8 +32,9 @@ When reopening this project, read in this order:
 7. `VOICE_GUIDE.md`
 8. `PROMPT_ARCHITECTURE.md`
 9. `TOOL_STACK.md`
-10. `DECISIONS.md`
-11. `WORKING_MEMORY.md`
+10. `PLATFORM_MATRIX.md`
+11. `DECISIONS.md`
+12. `WORKING_MEMORY.md`
 
 ## Folder Map
 
@@ -46,6 +47,7 @@ When reopening this project, read in this order:
 - `VOICE_GUIDE.md`: English writing standards
 - `PROMPT_ARCHITECTURE.md`: reusable prompt engine
 - `TOOL_STACK.md`: image/video strategy and tool roles
+- `PLATFORM_MATRIX.md`: staged cross-platform expansion strategy
 - `AVATAR_SYSTEM.md`: avatar and profile identity system
 - `PIPELINE.md`: creation and publishing workflow
 - `DECISIONS.md`: project decisions

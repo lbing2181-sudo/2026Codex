@@ -17,3 +17,5 @@
 - The confirmed public handle is `@sablearchive`.
 - Opening-phase production should be still-image-first, with short motion as a secondary amplification layer.
 - A future external archive website is treated as a likely expansion path, but not an opening requirement.
+- The platform matrix should be staged rather than simultaneous:
+  X first, Instagram second, TikTok third.

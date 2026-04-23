@@ -6,6 +6,8 @@
 - The core universe direction, account logic, and prompt architecture have been defined at first pass.
 - The project is still in pre-launch mode.
 - The public account identity has now been partially locked under `@sablearchive`.
+- The opening matrix logic has now been formalized:
+  X first, Instagram later, TikTok later still.
 
 ## Current Thesis
 
