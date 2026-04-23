@@ -2,7 +2,7 @@
 
 ## Working Master Brand
 
-`The Sable Archive`
+`Sable Archive`
 
 This is the provisional master identity for the account and the universe.
 It is broad enough to hold multiple realms, characters, eras, and sealed dossiers under one crown.
@@ -47,7 +47,7 @@ It must not feel like:
 
 ### Master Universe
 
-`The Sable Archive`
+`Sable Archive`
 
 ### Season One
 

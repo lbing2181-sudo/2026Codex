@@ -27,17 +27,19 @@ When reopening this project, read in this order:
 2. `CONSTITUTION.md`
 3. `BRAND_BIBLE.md`
 4. `WORLD_BIBLE.md`
-5. `X_ACCOUNT_OS.md`
-6. `VOICE_GUIDE.md`
-7. `PROMPT_ARCHITECTURE.md`
-8. `DECISIONS.md`
-9. `WORKING_MEMORY.md`
+5. `CHARACTER_CONTINUITY_SYSTEM.md`
+6. `X_ACCOUNT_OS.md`
+7. `VOICE_GUIDE.md`
+8. `PROMPT_ARCHITECTURE.md`
+9. `DECISIONS.md`
+10. `WORKING_MEMORY.md`
 
 ## Folder Map
 
 - `CONSTITUTION.md`: non-negotiable rules
 - `BRAND_BIBLE.md`: master identity and aesthetic
 - `WORLD_BIBLE.md`: universe structure and realm strategy
+- `CHARACTER_CONTINUITY_SYSTEM.md`: recurring character locking rules
 - `X_ACCOUNT_OS.md`: account setup and publishing system
 - `ACCOUNT_IDENTITY_DRAFT.md`: handle, display name, and bio drafts
 - `VOICE_GUIDE.md`: English writing standards

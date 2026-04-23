@@ -178,6 +178,7 @@ These layers do not always appear in the prompt, but they govern the system.
 ### A. Canon Layer
 
 Which archive class, season, and numbering system this image belongs to.
+For recurring characters, this layer must also include the locked dossier ID and signature anchors.
 
 ### B. Platform Layer
 
@@ -189,11 +190,15 @@ Whether the image remains non-explicit and public-facing.
 
 ### D. Brand Layer
 
-Whether the image looks authored by `The Sable Archive`.
+Whether the image looks authored by `Sable Archive`.
 
 ### E. Serialization Layer
 
 How the image connects to future posts, lore, and character expansion.
+
+### F. Continuity Layer
+
+Whether the image preserves the locked identity of any recurring character, relic, palace code, or symbolic system already established in canon.
 
 ## Prompt Assembly Formula
 
@@ -207,3 +212,4 @@ How the image connects to future posts, lore, and character expansion.
 - Is the wardrobe system specific enough to serialize?
 - Does the frame still read at thumbnail size?
 - Does the image belong to the archive rather than a random model output?
+- If this character has appeared before, would a returning follower know it is the same woman?

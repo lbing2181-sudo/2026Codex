@@ -18,15 +18,16 @@ The public identity should feel like an archive institution, not a personal crea
 
 ## First-Pass Handle Candidates
 
-- `@thesablearchive`
 - `@sablearchive`
-- `@archiveofsable`
+- `@sablearc`
+- `@sableindex`
 - `@sabledossiers`
-- `@sealedsable`
+- `@sablevault`
+- `@sablecourt`
 
 ## Recommended Display Name
 
-`The Sable Archive`
+`Sable Archive`
 
 This should stay stable unless handle availability forces a different naming logic.
 

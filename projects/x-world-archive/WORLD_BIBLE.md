@@ -2,7 +2,7 @@
 
 ## Master Premise
 
-`The Sable Archive` is a fictional imperial archive made of sealed dossiers, forbidden portraits, relic notes, court whispers, and ceremonial records from multiple sister realms.
+`Sable Archive` is a fictional imperial archive made of sealed dossiers, forbidden portraits, relic notes, court whispers, and ceremonial records from multiple sister realms.
 
 The archive is not presented all at once.
 It is unveiled as if the audience is being allowed to read what should have remained closed.
@@ -78,6 +78,8 @@ Every published asset should belong to one of these classes:
 - Characters must feel adult, sovereign, and psychologically legible.
 - Beauty alone is not enough; every woman must imply rank, history, or danger.
 - Body language should signal self-possession, invitation, judgment, distance, or ritual.
+- Recurring characters must be treated as persistent canon units, not as loosely similar regenerated types.
+- Every recurring character needs a locked dossier with face markers, silhouette grammar, jewelry logic, rank, temperament, and signature symbols.
 
 ## Expansion Doctrine
 

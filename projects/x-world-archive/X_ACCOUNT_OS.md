@@ -102,3 +102,4 @@ Opening phase guideline:
 
 People should follow for the world, not only for the image.
 The account wins when users can recognize the archive before seeing the handle.
+The account becomes stronger when viewers can recognize the same woman across multiple posts without needing to be told.

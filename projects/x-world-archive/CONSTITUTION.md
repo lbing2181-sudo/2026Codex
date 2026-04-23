@@ -19,6 +19,8 @@ This project exists to build a premium, English-first, X-native fictional univer
     recommendation health, account trust, and future monetization are part of creative direction.
 11. De-AI flavor is mandatory:
     all public output must read as authored, selective, and culturally literate rather than machine-averaged.
+12. Character continuity is mandatory:
+    any recurring named woman, court, relic, or symbol inside the same universe must preserve a locked identity across images, text, and future AI handoffs.
 
 ## Creative Doctrine
 
@@ -28,6 +30,7 @@ This project exists to build a premium, English-first, X-native fictional univer
 - We do not dilute the account with too many realms too early.
 - We do not mistake erotic noise for artistic magnetism.
 - We do not publish text, prompts, images, or videos that feel synthetically padded, generic, or "AI-made" on first contact.
+- We do not allow face drift, costume drift, rank drift, palette drift, or symbolic drift to break recurring recognition.
 
 ## Audience Doctrine
 
