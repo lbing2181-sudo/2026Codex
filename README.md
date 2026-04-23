@@ -13,6 +13,8 @@ This repository is the master workspace for long-term collaboration on commercia
 
 - `projects/tvc-director/`
   source repository: `https://github.com/lbing2181-sudo/tvc-director`
+- `projects/x-world-archive/`
+  control project for a premium X-native virtual worldbuilding account
 
 ## Registered Inactive Project
 

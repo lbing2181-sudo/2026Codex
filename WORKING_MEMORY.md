@@ -5,7 +5,10 @@
 - The workspace skeleton has been established.
 - Local `main` and remote `origin/main` are synchronized with normal Git history.
 - The first project focus is a high-aesthetic AI commercial film system based on the upstream `tvc-director` logic.
-- A second project entry, `immiforyou`, is now connected in dormant state and not yet active for execution.
+- A second project entry, `immiforyou`, is now active for `v2` rebuild planning only.
+- A new project entry, `x-world-archive`, is now active for worldbuilding, publishing system design, and X account strategy.
+- The dedicated rebuild repository `lbing2181-sudo/immiforyou-v2` now exists and is ready to receive scaffold files.
+- A repository-first startup protocol is now required for all future threads and handoffs.
 
 ## Immediate Priorities
 
@@ -13,6 +16,8 @@
 2. Turn the `tvc-director` idea into a commercially usable service offer.
 3. Define a clean operating pipeline for taking real client work.
 4. Start refining the `tvc-director` project into a client-ready operating system.
+5. Lock the `immiforyou` `v2` rebuild architecture before implementation.
+6. Define and stabilize the `x-world-archive` brand, first season, and X publishing system.
 
 ## Known Constraints
 
@@ -22,6 +27,7 @@
 ## Collaboration Reminder
 
 - At the start of new threads, read:
+  `START_HERE.md`
   `PROJECT_OS.md`
   `DECISIONS.md`
   `WORKING_MEMORY.md`
