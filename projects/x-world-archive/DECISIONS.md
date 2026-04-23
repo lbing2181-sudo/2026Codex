@@ -19,3 +19,6 @@
 - A future external archive website is treated as a likely expansion path, but not an opening requirement.
 - The platform matrix should be staged rather than simultaneous:
   X first, Instagram second, TikTok third.
+- Asset protection should use a layered model:
+  brand, evidence chain, credentials, fingerprinting, platform enforcement, and legal authorship support.
+- The operating model should favor concentrated batch production and selective automation rather than daily ad hoc work.

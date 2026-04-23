@@ -21,6 +21,8 @@ This project exists to build a premium, English-first, X-native fictional univer
     all public output must read as authored, selective, and culturally literate rather than machine-averaged.
 12. Character continuity is mandatory:
     any recurring named woman, court, relic, or symbol inside the same universe must preserve a locked identity across images, text, and future AI handoffs.
+13. Traceability is mandatory:
+    important assets, releases, and enforcement actions must leave a durable evidence trail that another AI or human can reconstruct.
 
 ## Creative Doctrine
 
@@ -31,6 +33,7 @@ This project exists to build a premium, English-first, X-native fictional univer
 - We do not mistake erotic noise for artistic magnetism.
 - We do not publish text, prompts, images, or videos that feel synthetically padded, generic, or "AI-made" on first contact.
 - We do not allow face drift, costume drift, rank drift, palette drift, or symbolic drift to break recurring recognition.
+- We do not allow important work to exist only on platforms without local records, IDs, or evidence.
 
 ## Audience Doctrine
 
@@ -49,3 +52,4 @@ This project exists to build a premium, English-first, X-native fictional univer
 - Strategic conclusions belong in `DECISIONS.md`.
 - Current state belongs in `WORKING_MEMORY.md`.
 - New realms, pillars, and format changes must be written back into project files.
+- Asset identity, evidence, and enforcement logic must also be written into repository files.

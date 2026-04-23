@@ -33,8 +33,12 @@ When reopening this project, read in this order:
 8. `PROMPT_ARCHITECTURE.md`
 9. `TOOL_STACK.md`
 10. `PLATFORM_MATRIX.md`
-11. `DECISIONS.md`
-12. `WORKING_MEMORY.md`
+11. `ASSET_PROTECTION.md`
+12. `EVIDENCE_CHAIN.md`
+13. `INFRINGEMENT_PLAYBOOK.md`
+14. `WORKFLOW_AUTOMATION_MAP.md`
+15. `DECISIONS.md`
+16. `WORKING_MEMORY.md`
 
 ## Folder Map
 
@@ -48,6 +52,10 @@ When reopening this project, read in this order:
 - `PROMPT_ARCHITECTURE.md`: reusable prompt engine
 - `TOOL_STACK.md`: image/video strategy and tool roles
 - `PLATFORM_MATRIX.md`: staged cross-platform expansion strategy
+- `ASSET_PROTECTION.md`: layered digital asset protection strategy
+- `EVIDENCE_CHAIN.md`: proof and traceability requirements
+- `INFRINGEMENT_PLAYBOOK.md`: response system for copying and impersonation
+- `WORKFLOW_AUTOMATION_MAP.md`: batching and automation map
 - `AVATAR_SYSTEM.md`: avatar and profile identity system
 - `PIPELINE.md`: creation and publishing workflow
 - `DECISIONS.md`: project decisions

@@ -8,6 +8,7 @@
 - The public account identity has now been partially locked under `@sablearchive`.
 - The opening matrix logic has now been formalized:
   X first, Instagram later, TikTok later still.
+- The asset-protection and workflow-automation layers are now being formalized to reduce future chaos and manual work.
 
 ## Current Thesis
 
@@ -23,6 +24,7 @@
 3. define the first season publishing plan
 4. design the pinned post and archive gateway
 5. produce the first seed post batch
+6. turn asset logging and batch production into repeatable operating routines
 
 ## Known Constraints
 
