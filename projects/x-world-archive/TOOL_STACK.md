@@ -29,7 +29,42 @@ For the first 4 to 8 weeks:
 
 ## Tool Roles
 
-### 1. FLUX.2
+### 1. ChatGPT Images
+
+Primary role:
+
+- current primary still-image tool
+- first-season batch generation
+- direct iterative editing in chat
+- character and object generation with strong instruction following
+
+Why:
+
+- lowest-friction tool for the current workflow
+- easy prompt iteration in the same conversation
+- good fit for a user-facing batch prompt pack
+
+Recommended practical ratios in ChatGPT Images:
+
+- `4:5` for character posts
+- `16:9` for scene and header assets
+- `1:1` for avatar and object assets
+
+### 2. Nano Banana 2
+
+Primary role:
+
+- fast iteration
+- rapid visual variants
+- quick edits and refinements
+- high-speed exploration
+
+Why:
+
+- useful when speed matters more than deep single-thread refinement
+- strong support role for finding better variants quickly
+
+### 3. FLUX.2
 
 Primary role:
 
@@ -45,7 +80,7 @@ Why:
 - strong candidate for multi-reference workflows
 - most suitable for treating recurring characters as assets rather than disposable outputs
 
-### 2. Midjourney
+### 4. Midjourney
 
 Primary role:
 
@@ -59,7 +94,7 @@ Why:
 - useful for searching for the right air, texture, and silhouette language
 - less ideal as the sole canon engine for recurring character consistency
 
-### 3. Runway Gen-4
+### 5. Runway Gen-4
 
 Primary role:
 
@@ -73,7 +108,7 @@ Why:
 - best used after the still image already works
 - ideal for veil movement, slow turns, ambient light, smoke, and restrained camera drift
 
-### 4. Sora or Veo
+### 6. Sora or Veo
 
 Primary role:
 
@@ -95,6 +130,18 @@ Why:
 5. convert selected stills into short motion only after continuity holds
 
 ## Prompt Guidance By Tool
+
+### For ChatGPT Images
+
+- use direct copy-ready prompts
+- choose ratio in the UI before generation
+- for recurring characters, upload the previous approved image when possible
+- keep prompts shorter and cleaner than exploratory prompts
+
+### For Nano Banana 2
+
+- use it for fast variant loops
+- preserve the same identity anchors while changing one variable at a time
 
 ### For FLUX.2
 

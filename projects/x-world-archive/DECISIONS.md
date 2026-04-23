@@ -22,3 +22,6 @@
 - Asset protection should use a layered model:
   brand, evidence chain, credentials, fingerprinting, platform enforcement, and legal authorship support.
 - The operating model should favor concentrated batch production and selective automation rather than daily ad hoc work.
+- The current primary still-image tool is `ChatGPT Images`.
+- The current practical ratio defaults are:
+  `4:5` for character assets, `16:9` for scenes, and `1:1` for avatar/object assets.
