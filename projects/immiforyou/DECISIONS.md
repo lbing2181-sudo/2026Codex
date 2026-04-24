@@ -178,6 +178,10 @@
   map users' strongest real-world condition
   to a likely starting direction and a corresponding caution.
   This should help users stop guessing from route names alone.
+- After the first scaffold checkpoint, the work should move into refinement:
+  avoid adding more country-page content by default,
+  extract heavy judgment sections into reusable components,
+  and reduce page-file sprawl before continuing visual or content expansion.
 - Document governance is now explicit for this project:
   upper-level control files must suppress lower-level files,
   stale or reversed lower-level instructions should be revised or deleted,

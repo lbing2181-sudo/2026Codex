@@ -109,6 +109,10 @@
 - let the canonical U.S. page expose a driver matrix too:
   users should be able to align their strongest real-world condition
   with a likely starting direction before deeper judgment begins
+- begin the refinement phase after the first scaffold checkpoint:
+  stop adding more country-page content by default,
+  extract heavy judgment sections into reusable components,
+  and reduce page-file sprawl before further design work
 
 ## Current Rule
 
