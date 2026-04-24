@@ -159,6 +159,11 @@
   avoid `sample`, `future`, and internal role-explanation language
   in public article summaries and news index copy;
   present articles as real judgment support and country-page dynamic inputs
+- account and membership pages should be product-facing:
+  account is the user judgment center for diagnosis records,
+  saved countries, policy tracking, and membership state;
+  membership is a public service explanation with purchase currently closed,
+  not an internal roadmap or placeholder page
 
 ## Primary Planning File
 
