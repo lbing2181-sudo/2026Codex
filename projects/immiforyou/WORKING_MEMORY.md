@@ -134,6 +134,10 @@
 - country-page refinement is now subtraction-first:
   visible density should come from fewer stronger blocks,
   not from rendering every available internal judgment field
+- country-page componentization has started:
+  process, pathway comparison, preparation checklist, and fee table
+  should live as reusable content components,
+  not as one-off blocks embedded in the route file
 
 ## Primary Planning File
 
