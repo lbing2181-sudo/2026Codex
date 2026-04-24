@@ -190,6 +190,10 @@
 - Public UI copy should not expose internal rebuild language:
   users should see ImmiForYou as a coherent product,
   not labels such as `v2`, `scaffold`, or `template status`.
+- Homepage positioning should be user-facing:
+  the homepage is an entry surface for country discovery,
+  policy analysis, and `移民路径诊断`,
+  not a visible explanation of internal rebuild progress.
 - Document governance is now explicit for this project:
   upper-level control files must suppress lower-level files,
   stale or reversed lower-level instructions should be revised or deleted,

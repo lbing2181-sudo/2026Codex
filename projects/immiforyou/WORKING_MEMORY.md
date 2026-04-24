@@ -141,6 +141,10 @@
 - public-facing pages should not expose internal rebuild language:
   remove `v2`, `scaffold`, `template status`, and similar development labels
   from visible UI copy before treating a page as product-facing
+- homepage copy is now user-first:
+  it should guide users through country discovery,
+  policy reading, and immigration path diagnosis,
+  instead of explaining the internal rebuild process
 
 ## Primary Planning File
 
