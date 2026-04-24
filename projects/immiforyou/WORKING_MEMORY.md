@@ -150,6 +150,11 @@
   policy news reading,
   and immigration path diagnosis
   should remain the primary first-click sequence
+- diagnosis page has entered a subtraction-first service-page structure:
+  keep definition, three-step experience, interface preview,
+  launch entry, price boundary, fit boundary, account continuity,
+  and trust boundary;
+  avoid repeating questionnaire/report/deliverable explanations in multiple sections
 
 ## Primary Planning File
 
