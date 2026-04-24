@@ -31,6 +31,31 @@
 - Do not start execution work from stale local context when newer repository content may exist.
 - Sync understanding to the newest source-of-truth state before making changes in the control repository.
 
+## Document Governance
+
+- Documentation must not grow as an unmanaged archive.
+- When a newer decision overturns an older rule, the older expression should be revised or removed as soon as practical.
+- Avoid leaving invalidated instructions alive in lower-level files where they can mislead a future thread or another AI.
+- Document maintenance must include periodic backtesting:
+  reread current upper-level rules,
+  scan lower-level files,
+  and clean or rewrite expressions that no longer match the active direction.
+- Hierarchy is mandatory:
+  top-level control documents override project-level documents,
+  and project-level control documents override phase files, planning files, and execution notes.
+- Lower-level documents may add detail, but may not contradict upper-level documents.
+- If an upper-level rule changes, affected lower-level files must be updated before new execution continues.
+- If a lower-level file contains reversed or stale language, treat it as a documentation bug and fix it.
+
+## Memory Defense
+
+- Every active project must have a clear boot path for new threads and future handoff.
+- The default startup order is:
+  `START_HERE.md` -> `PROJECT_OS.md` -> root `DECISIONS.md` -> root `WORKING_MEMORY.md` -> project `README.md` -> project `DECISIONS.md` -> project `WORKING_MEMORY.md`.
+- If a project has a phase-specific control file such as `M0_V1_FREEZE_CHECKLIST.md` or `V2_REBUILD_PLAN.md`, that file becomes part of the required startup path for that phase.
+- When a thread ends with important conclusions, write them back before moving on.
+- The repository must remain readable by another AI or another future thread without private chat dependence.
+
 ## Structure
 
 - Top level: strategy, collaboration memory, cross-project standards.

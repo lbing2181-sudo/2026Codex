@@ -1,2 +1,5 @@
 .DS_Store
 .codex_tmp/
+
+# Local implementation workspaces are tracked in their own repositories.
+immiforyou-v2/

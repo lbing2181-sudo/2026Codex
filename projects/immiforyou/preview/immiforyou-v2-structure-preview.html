@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ImmiForYou V2 Structure Preview</title>
+  <style>
+    :root {
+      --bg: #f3f1ec;
+      --paper: #fffdf8;
+      --ink: #171717;
+      --muted: #6d675d;
+      --line: rgba(23, 23, 23, 0.08);
+      --gold: #a67a2d;
+      --gold-soft: rgba(166, 122, 45, 0.1);
+      --deep: #122033;
+      --deep-2: #1d3047;
+      --radius: 18px;
+      --shadow: 0 18px 50px rgba(18, 32, 51, 0.08);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", sans-serif;
+      background:
+        radial-gradient(circle at top left, rgba(166, 122, 45, 0.05), transparent 28%),
+        linear-gradient(180deg, #f7f5f0 0%, var(--bg) 100%);
+      color: var(--ink);
+    }
+    .nav {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 18px 32px;
+      backdrop-filter: blur(14px);
+      background: rgba(247, 245, 240, 0.86);
+      border-bottom: 1px solid var(--line);
+    }
+    .logo { font-size: 18px; letter-spacing: 0.02em; }
+    .logo span { color: var(--gold); }
+    .nav-links { display: flex; gap: 18px; color: var(--muted); font-size: 14px; }
+    .page { max-width: 1180px; margin: 0 auto; padding: 32px 24px 72px; }
+    .hero {
+      background: linear-gradient(145deg, var(--deep) 0%, var(--deep-2) 100%);
+      color: #f8f4eb;
+      border-radius: 28px;
+      padding: 48px;
+      box-shadow: var(--shadow);
+      margin-bottom: 28px;
+    }
+    .eyebrow {
+      font-size: 12px;
+      letter-spacing: 0.24em;
+      text-transform: uppercase;
+      color: rgba(248, 244, 235, 0.65);
+      margin-bottom: 14px;
+    }
+    h1 { margin: 0 0 14px; font-size: 42px; line-height: 1.18; font-weight: 600; }
+    .hero p {
+      max-width: 760px;
+      color: rgba(248, 244, 235, 0.74);
+      line-height: 1.8;
+      font-size: 15px;
+      margin: 0 0 22px;
+    }
+    .chips { display: flex; flex-wrap: wrap; gap: 10px; }
+    .chip {
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      font-size: 13px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1.35fr 0.95fr;
+      gap: 24px;
+      margin-bottom: 24px;
+    }
+    .card {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: 0 10px 28px rgba(23, 23, 23, 0.04);
+      padding: 24px;
+    }
+    .card h2 { margin: 0 0 12px; font-size: 22px; font-weight: 600; }
+    .card p { margin: 0 0 16px; color: var(--muted); line-height: 1.8; font-size: 14px; }
+    .stack { display: grid; gap: 14px; }
+    .mini {
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 14px 16px;
+      background: #fff;
+    }
+    .mini strong { display: block; margin-bottom: 6px; font-size: 14px; }
+    .mini span { font-size: 13px; color: var(--muted); line-height: 1.7; }
+    .section-title {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+    }
+    .section-title small {
+      color: var(--gold);
+      font-size: 12px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+    .article { padding: 18px 0; border-top: 1px solid var(--line); }
+    .article:first-child { border-top: none; padding-top: 0; }
+    .article h3 { margin: 0 0 8px; font-size: 18px; line-height: 1.45; }
+    .meta {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      color: var(--muted);
+      font-size: 12px;
+      margin-bottom: 8px;
+    }
+    .table-shell {
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      margin: 14px 0 18px;
+    }
+    table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    th, td {
+      padding: 12px 14px;
+      border-bottom: 1px solid var(--line);
+      text-align: left;
+      vertical-align: top;
+    }
+    th { background: rgba(166, 122, 45, 0.08); color: #6f531d; font-weight: 600; }
+    .note {
+      margin-top: 10px;
+      padding: 12px 14px;
+      background: var(--gold-soft);
+      border-radius: 12px;
+      color: #6b5427;
+      font-size: 13px;
+      line-height: 1.7;
+    }
+    .footer { margin-top: 32px; text-align: center; color: var(--muted); font-size: 13px; }
+    @media (max-width: 900px) {
+      .grid { grid-template-columns: 1fr; }
+      .hero { padding: 30px 24px; }
+      h1 { font-size: 30px; }
+      .nav { padding: 16px 18px; }
+      .nav-links { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <div class="logo">Immi<span>ForYou</span> · V2 Preview</div>
+    <div class="nav-links">
+      <span>首页</span>
+      <span>国家页</span>
+      <span>政策动态</span>
+      <span>路径诊断</span>
+      <span>About</span>
+    </div>
+  </nav>
+
+  <main class="page">
+    <section class="hero">
+      <div class="eyebrow">Visual Continuity Preview</div>
+      <h1>这不是大改版，<br>而是更干净的承重骨架。</h1>
+      <p>这个预览只服务一件事：让你先看到 `v2` 的结构感。整体气质仍然沿着 `v1` 现在的安静、克制、偏高级阅读型方向走，不做突然陌生的视觉翻新。</p>
+      <div class="chips">
+        <div class="chip">深内容优先</div>
+        <div class="chip">国家页主体静态</div>
+        <div class="chip">站内原创新闻聚合</div>
+        <div class="chip">诊断页继续做核心服务入口</div>
+      </div>
+    </section>
+
+    <section class="grid">
+      <article class="card">
+        <div class="section-title">
+          <h2>国家详情页骨架</h2>
+          <small>ContentLayout</small>
+        </div>
+        <p>国家页以后仍然是最稳、最能承重的一类页面。主体内容尽量静态，承担长期搜索、长期信任、长期教育；动态部分集中在“相关新闻聚合层”，而且只承接站内原创政策文章。</p>
+
+        <div class="stack">
+          <div class="mini">
+            <strong>Hero / 概览</strong>
+            <span>国家定位、适合人群、核心判断、官方来源可信感。</span>
+          </div>
+          <div class="mini">
+            <strong>路径拆解 / 要求 / 成本周期</strong>
+            <span>这些都是 evergreen 主体，默认静态优先，靠周期性复核更新，而不是频繁重写。</span>
+          </div>
+          <div class="mini">
+            <strong>适配人群 / FAQ / 官方链接</strong>
+            <span>继续服务“读懂”和“做判断”，而不是只给碎片结论。</span>
+          </div>
+        </div>
+
+        <div class="table-shell">
+          <table>
+            <thead>
+              <tr>
+                <th>区块</th>
+                <th>更新方式</th>
+                <th>角色</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>路径说明</td>
+                <td>静态优先</td>
+                <td>承接长期搜索与长期理解</td>
+              </tr>
+              <tr>
+                <td>要求 / 成本 / 周期</td>
+                <td>静态优先 + 周期复核</td>
+                <td>降低长期维护负担</td>
+              </tr>
+              <tr>
+                <td>相关新闻聚合</td>
+                <td>动态</td>
+                <td>只承接站内原创政策文章，补时效性</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="note">这里最关键的结构判断是：国家页不是每天都重写，而是把“活”的部分集中在站内原创新闻聚合层。</div>
+      </article>
+
+      <aside class="card">
+        <div class="section-title">
+          <h2>自动聚合新闻层</h2>
+          <small>Only Internal Original News</small>
+        </div>
+        <p>这块不是外部抓取，也不是新的原创池。它只从你网站自己已经发布的原创政策文章里，挑出和当前国家相关的内容，显示摘要并链接回全文。</p>
+
+        <div class="article">
+          <div class="meta">
+            <span>美国</span>
+            <span>2026-04-20</span>
+            <span>站内原创</span>
+          </div>
+          <h3>美国 H-1B 改革与 EB-1A / NIW 数据全景</h3>
+          <p>这里会显示摘要，而不是把新闻正文重新复制一遍。作用是给国家页提供动态时效感，并把用户拉回原创文章全文。</p>
+        </div>
+
+        <div class="article">
+          <div class="meta">
+            <span>葡萄牙 / 对比</span>
+            <span>2026-04-22</span>
+            <span>站内原创</span>
+          </div>
+          <h3>数字游民 6 国替代方案实战对比</h3>
+          <p>如果文章和当前国家有关，也可以进入这里的相关动态层。核心原则是：国家页动态内容只来自站内原创。</p>
+        </div>
+      </aside>
+    </section>
+
+    <section class="grid">
+      <article class="card">
+        <div class="section-title">
+          <h2>新闻文章页骨架</h2>
+          <small>Long-Form Authority Template</small>
+        </div>
+        <p>新闻文章页以后不只是政策快讯，而是深度长文入口。作者信息要清楚，结构要清楚，来源要清楚，正文要能承住表格、FAQ、persona 影响分析。</p>
+
+        <div class="stack">
+          <div class="mini">
+            <strong>作者区块</strong>
+            <span>作者中文名、英文名、负责区域。不是装饰，而是责任归属与可信度的一部分。</span>
+          </div>
+          <div class="mini">
+            <strong>深正文区块</strong>
+            <span>按 `D61` 深内容规则设计，不走短资讯样式。</span>
+          </div>
+          <div class="mini">
+            <strong>来源 + FAQ + 相关推荐</strong>
+            <span>让文章既能承接搜索，也能承接信任和站内跳转。</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="section-title">
+          <h2>诊断页骨架</h2>
+          <small>UtilityLayout</small>
+        </div>
+        <p>诊断页不是普通工具页，它继续保留核心服务入口地位。DeepSeek 路径诊断能力在这里，前端负责承接体验，真实判断逻辑继续留在受保护的 Worker 边界后面。</p>
+
+        <div class="stack">
+          <div class="mini">
+            <strong>前段</strong>
+            <span>信任说明、资格判断、问卷壳层。</span>
+          </div>
+          <div class="mini">
+            <strong>中段</strong>
+            <span>加载状态、结果壳层、解释层。</span>
+          </div>
+          <div class="mini">
+            <strong>边界</strong>
+            <span>支付和更完整商业化可以后置，但服务入口地位不变。</span>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <div class="footer">
+      这个预览不是最终设计稿，只是把 `v2` 结构翻译成你可以直接看的网页轮廓。
+    </div>
+  </main>
+</body>
+</html>
