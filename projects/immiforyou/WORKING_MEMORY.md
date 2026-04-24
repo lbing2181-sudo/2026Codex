@@ -117,6 +117,10 @@
   retain deeper judgment data in the content model,
   but render only the strongest decision layers by default
   until progressive disclosure or account-level continuity is designed
+- public UI language has entered audit mode:
+  visible pages should use active product language,
+  not internal labels such as scaffold, future layer, preview shell,
+  or English development tags that make the site feel unfinished
 
 ## Current Rule
 
@@ -164,6 +168,10 @@
   saved countries, policy tracking, and membership state;
   membership is a public service explanation with purchase currently closed,
   not an internal roadmap or placeholder page
+- public-facing copy must not leak implementation staging:
+  if a feature is reserved or partially wired,
+  describe the user-facing boundary and service role,
+  not the internal build sequence
 
 ## Primary Planning File
 
