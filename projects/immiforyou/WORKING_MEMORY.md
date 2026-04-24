@@ -113,6 +113,10 @@
   stop adding more country-page content by default,
   extract heavy judgment sections into reusable components,
   and reduce page-file sprawl before further design work
+- keep the U.S. country page from becoming an endlessly expanding page:
+  retain deeper judgment data in the content model,
+  but render only the strongest decision layers by default
+  until progressive disclosure or account-level continuity is designed
 
 ## Current Rule
 
@@ -127,6 +131,9 @@
   diagnosis entry -> account continuity -> membership/service depth
 - keep document hierarchy strict:
   upper-level rules suppress lower-level files unless the upper level is changed first
+- country-page refinement is now subtraction-first:
+  visible density should come from fewer stronger blocks,
+  not from rendering every available internal judgment field
 
 ## Primary Planning File
 

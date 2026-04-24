@@ -182,6 +182,11 @@
   avoid adding more country-page content by default,
   extract heavy judgment sections into reusable components,
   and reduce page-file sprawl before continuing visual or content expansion.
+- The U.S. country page should not render every internal judgment field by default:
+  deeper fields may remain in the content model for future use,
+  but the public page should show fewer, stronger decision layers first.
+  This preserves real complexity without turning the canonical template
+  into an endlessly growing document page.
 - Document governance is now explicit for this project:
   upper-level control files must suppress lower-level files,
   stale or reversed lower-level instructions should be revised or deleted,
