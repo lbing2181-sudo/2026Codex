@@ -145,6 +145,11 @@
   it should guide users through country discovery,
   policy reading, and immigration path diagnosis,
   instead of explaining the internal rebuild process
+- homepage entry structure now uses three clear action cards:
+  country path discovery,
+  policy news reading,
+  and immigration path diagnosis
+  should remain the primary first-click sequence
 
 ## Primary Planning File
 
