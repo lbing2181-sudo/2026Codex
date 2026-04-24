@@ -155,6 +155,10 @@
   launch entry, price boundary, fit boundary, account continuity,
   and trust boundary;
   avoid repeating questionnaire/report/deliverable explanations in multiple sections
+- policy news pages should read as an active content system:
+  avoid `sample`, `future`, and internal role-explanation language
+  in public article summaries and news index copy;
+  present articles as real judgment support and country-page dynamic inputs
 
 ## Primary Planning File
 
