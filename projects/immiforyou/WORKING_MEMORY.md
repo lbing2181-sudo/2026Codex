@@ -138,6 +138,9 @@
   process, pathway comparison, preparation checklist, and fee table
   should live as reusable content components,
   not as one-off blocks embedded in the route file
+- public-facing pages should not expose internal rebuild language:
+  remove `v2`, `scaffold`, `template status`, and similar development labels
+  from visible UI copy before treating a page as product-facing
 
 ## Primary Planning File
 

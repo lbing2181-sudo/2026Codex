@@ -187,6 +187,9 @@
   but the public page should show fewer, stronger decision layers first.
   This preserves real complexity without turning the canonical template
   into an endlessly growing document page.
+- Public UI copy should not expose internal rebuild language:
+  users should see ImmiForYou as a coherent product,
+  not labels such as `v2`, `scaffold`, or `template status`.
 - Document governance is now explicit for this project:
   upper-level control files must suppress lower-level files,
   stale or reversed lower-level instructions should be revised or deleted,
